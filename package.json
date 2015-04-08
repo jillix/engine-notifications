@@ -1,0 +1,15 @@
+{
+  "name": "engine-notifications",
+  "version": "0.1.0",
+  "description": "PNotify port for Engine.",
+  "main": "client/index.js",
+  "components": {
+      "scripts": [
+        "client/index.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/pnotify/2.0.0/pnotify.all.min.js"
+      ],
+      "styles": [
+        "https://cdnjs.cloudflare.com/ajax/libs/pnotify/2.0.0/pnotify.all.min.css"
+      ]
+  }
+}
