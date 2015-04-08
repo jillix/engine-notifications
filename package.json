@@ -6,10 +6,11 @@
   "components": {
     "scripts": [
       "client/index.js",
-      "https://cdnjs.cloudflare.com/ajax/libs/pnotify/2.0.0/pnotify.all.min.js"
+      "client/libs/pnotify.all.min.js",
+      "/libs/jquery.js"
     ],
     "styles": [
-      "https://cdnjs.cloudflare.com/ajax/libs/pnotify/2.0.0/pnotify.all.min.css"
+      "//cdnjs.cloudflare.com/ajax/libs/pnotify/2.0.0/pnotify.all.min.css"
     ]
   },
   "scripts": {
