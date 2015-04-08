@@ -1,22 +1,15 @@
 # engine-notifications
 PNotify port for Engine.
 
-## Installation
-Run the following commands to download and install the application:
-
-```sh
-$  clone  engine-notifications
-$ cd engine-notifications
-$ npm install
-```
-
 ## Documentation
-## `notify()`
+### `notify(ev, data)`
+Shows a notification on the page.
 
-
+#### Params
+- **Event** `ev`: The event object.
+- **Object** `data`: The data passed to PNotify
 
 ## How to contribute
-
 1. File an issue in the repository, using the bug tracker, describing the
    contribution you'd like to make. This will help us to get you started on the
    right foot.
