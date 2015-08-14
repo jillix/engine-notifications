@@ -2,11 +2,10 @@
 PNotify port for Engine.
 
 ## Documentation
-### `notify(ev, data)`
+### `notify(data)`
 Shows a notification on the page.
 
 #### Params
-- **Event** `ev`: The event object.
 - **Object** `data`: The data passed to PNotify
 
 ## How to contribute
