@@ -8,6 +8,6 @@
  * @param {Object} data The data passed to PNotify
  * @return {undefined}
  */
-exports.notify = function (ev, data) {
+exports.notify = function (data) {
     new PNotify(data);
 };

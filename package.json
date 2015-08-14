@@ -3,15 +3,17 @@
   "version": "0.1.0",
   "description": "PNotify port for Engine.",
   "main": "client/index.js",
-  "components": {
-    "scripts": [
-      "client/index.js",
-      "client/libs/pnotify.all.min.js",
-      "/libs/jquery.js"
-    ],
-    "styles": [
-      "//cdnjs.cloudflare.com/ajax/libs/pnotify/2.0.0/pnotify.all.min.css"
-    ]
+  "composition": {
+    "client": {
+      "module": [
+        "client/index.js",
+        "client/libs/pnotify.all.min.js",
+        "/libs/jquery.js"
+      ],
+      "styles": [
+        "//cdnjs.cloudflare.com/ajax/libs/pnotify/2.0.0/pnotify.all.min.css"
+      ]
+    }
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
